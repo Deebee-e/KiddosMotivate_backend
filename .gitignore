@@ -1,0 +1,60 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# Logs
+*.log
+
+# FastAPI specific
+# Uvicorn or Gunicorn log files (if you run FastAPI with those)
+*.log
+gunicorn-error.log
+uvicorn-access.log
+
+# Database (SQLite, if applicable)
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
